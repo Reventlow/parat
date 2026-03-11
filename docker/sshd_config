@@ -1,0 +1,28 @@
+Port 22
+
+# Only allow the parat game user
+AllowUsers parat
+PermitRootLogin no
+
+# Password auth with known password
+PasswordAuthentication yes
+PermitEmptyPasswords no
+
+# Force the game — no shell access possible
+ForceCommand /opt/parat/game-wrapper.sh
+
+# Disable everything that could be abused
+DisableForwarding yes
+X11Forwarding no
+AllowTcpForwarding no
+AllowAgentForwarding no
+PermitTunnel no
+GatewayPorts no
+PermitUserEnvironment no
+PermitUserRC no
+
+# Allow TERM for proper color support
+AcceptEnv TERM
+
+# Logging
+LogLevel INFO
