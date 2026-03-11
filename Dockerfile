@@ -6,9 +6,9 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir -p /var/run/sshd
 
-# Create restricted game user (no shell)
+# Create restricted game user (no shell, no password)
 RUN useradd -m -s /usr/sbin/nologin parat \
-    && echo "parat:parat" | chpasswd
+    && passwd -d parat
 
 # SSH config — locked down, ForceCommand only
 COPY docker/sshd_config /etc/ssh/sshd_config
