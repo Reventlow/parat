@@ -1,5 +1,5 @@
 """
-3 Døgn — Scenario Registry
+Parat — Scenario Registry
 
 Import and register all scenarios here.
 To add a new scenario, create a new file in this package and add it to SCENARIO_BUILDERS.

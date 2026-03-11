@@ -1,5 +1,5 @@
 """
-3 Døgn — Game Engine
+Parat — Game Engine
 
 Terminal helpers, data classes, and the core game loop.
 """

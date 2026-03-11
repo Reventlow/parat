@@ -1,24 +1,24 @@
-# 3 Døgn — Kan din familie klare sig?
+# Parat — Kan din familie klare sig?
 
 Et terminalbaseret refleksionsspil om kriseberedskab i hjemmet.
 
-Spillet sætter din familie i realistiske krisescenarier og stiller spørgsmål der får jer til at tænke over, hvor godt I er forberedt på at klare jer selv i mindst 3 døgn — uden strøm, vand, internet eller hjælp udefra.
+Spillet sætter din familie i realistiske krisescenarier og stiller spørgsmål der får jer til at tænke over, hvor godt I er forberedt på at klare jer selv — uden strøm, vand, internet eller hjælp udefra.
 
 ## Hvad handler det om?
 
 Danske myndigheder anbefaler at alle husstande kan klare sig selv i mindst 3 døgn under en krise. Men hvor mange har faktisk tænkt det igennem?
 
-**3 Døgn** er et familieværktøj der hjælper jer med at finde ud af det — på en engagerende måde.
+**Parat** er et familieværktøj der hjælper jer med at finde ud af det — på en engagerende måde.
 
 ## Scenarier
 
-| # | Scenarie | Sværhedsgrad | Varighed |
-|---|----------|-------------|----------|
-| 1 | Vinterstormen | ★☆☆☆☆ | 3 dage |
-| 2 | Oversvømmelsen | ★★☆☆☆ | 3+1 dage |
-| 3 | Pandemien | ★★★☆☆ | 3+2 dage |
-| 4 | Cyberangrebet | ★★★★☆ | 3+2 dage |
-| 5 | Mørkelægning | ★★★★★ | 3+3 dage |
+| # | Scenarie | Sværhedsgrad |
+|---|----------|-------------|
+| 1 | Vinterstormen | ★☆☆☆☆ |
+| 2 | Oversvømmelsen | ★★☆☆☆ |
+| 3 | Pandemien | ★★★☆☆ |
+| 4 | Cyberangrebet | ★★★★☆ |
+| 5 | Mørkelægning | ★★★★★ |
 
 Hvert scenarie tilpasser sig jeres husstand — antal personer, børn, kæledyr, boligtype, beliggenhed og medicinske behov.
 
@@ -49,8 +49,7 @@ python3 3doegn.py
 1. **Husstandsprofil** — I fortæller om jeres husstand (antal personer, børn, kæledyr, bolig, beliggenhed)
 2. **Vælg scenarie** — Vælg en krise at spille igennem
 3. **Dag for dag** — I oplever krisen dag for dag med begivenheder og refleksionsspørgsmål
-4. **Curveball** — Nogle scenarier forlænger krisen ud over 3 dage
-5. **Beredskabsprofil** — I får en opsummering af jeres beredskab med konkrete anbefalinger
+4. **Beredskabsprofil** — I får en opsummering af jeres beredskab med konkrete anbefalinger
 
 ### Svar
 

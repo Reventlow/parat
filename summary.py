@@ -1,5 +1,5 @@
 """
-3 Døgn — Summary and Recommendations
+Parat — Summary and Recommendations
 
 Generates the post-game preparedness profile and actionable advice.
 """

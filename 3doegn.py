@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-3 Døgn — Familieberedskab Simulering
+Parat — Familieberedskab Simulering
 
 Et terminalbaseret refleksionsspil om kriseberedskab i hjemmet.
 Spillere konfronteres med realistiske krisescenarier og reflekterer
@@ -41,7 +41,7 @@ def show_title():
         styled("            ╺━━━━━━━━━━━━━━━╸",
                Color.BRIGHT_RED),
         "",
-        styled("               3  D Ø G N",
+        styled("              P A R A T",
                Color.BOLD, Color.BRIGHT_WHITE),
         "",
         styled("            ╺━━━━━━━━━━━━━━━╸",

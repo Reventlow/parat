@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 3 Døgn — Familieberedskab Simulering
+# Parat — Familieberedskab Simulering
 # Launch script
 
 SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")" && pwd)"
