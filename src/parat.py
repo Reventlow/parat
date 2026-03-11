@@ -58,6 +58,14 @@ def show_title():
         styled("           Udviklet af SynTech.dk",
                Color.DIM),
         "",
+        styled("  Jeres svar gemmes ikke og forlader aldrig",
+               Color.DIM),
+        styled("  jeres computer. Vi indsamler ingen data.",
+               Color.DIM),
+        "",
+        styled("  Kildekode: github.com/Reventlow/parat",
+               Color.DIM),
+        "",
     ]
     for line in title_art:
         print_centered(line)
