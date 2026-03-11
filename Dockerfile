@@ -7,7 +7,7 @@ RUN apt-get update \
     && mkdir -p /var/run/sshd
 
 # Create restricted game user (no shell, no password)
-RUN useradd -m -s /usr/sbin/nologin parat \
+RUN useradd -m -s /bin/bash parat \
     && passwd -d parat
 
 # SSH config — locked down, ForceCommand only
