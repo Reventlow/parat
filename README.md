@@ -38,7 +38,7 @@ git clone https://github.com/Reventlow/parat.git
 cd parat
 
 # Kør spillet
-python3 parat.py
+python3 src/parat.py
 
 # Eller via launcher-scriptet
 ./parat
@@ -78,23 +78,26 @@ Spillet vurderer jer inden for 10 kategorier:
 ```
 parat/
 ├── parat              # Bash launcher
-├── parat.py           # Hovedprogram (titel, menu, game loop)
-├── engine.py          # Terminal-hjælpere, dataklasser, spilmotor
-├── summary.py         # Opsummering, anbefalinger, afslutning
-└── scenarios/
-    ├── __init__.py          # Scenarie-register
-    ├── vinterstormen.py     # ★☆☆☆☆
-    ├── oversvommelsen.py    # ★★☆☆☆
-    ├── pandemien.py         # ★★★☆☆
-    ├── cyberangrebet.py     # ★★★★☆
-    └── moerkelaegning.py    # ★★★★★
+├── README.md
+├── LICENSE
+└── src/
+    ├── parat.py           # Hovedprogram (titel, menu, game loop)
+    ├── engine.py          # Terminal-hjælpere, dataklasser, spilmotor
+    ├── summary.py         # Opsummering, anbefalinger, afslutning
+    └── scenarios/
+        ├── __init__.py          # Scenarie-register
+        ├── vinterstormen.py     # ★☆☆☆☆
+        ├── oversvommelsen.py    # ★★☆☆☆
+        ├── pandemien.py         # ★★★☆☆
+        ├── cyberangrebet.py     # ★★★★☆
+        └── moerkelaegning.py    # ★★★★★
 ```
 
 ## Tilføj et nyt scenarie
 
-1. Opret en ny fil i `scenarios/`, f.eks. `scenarios/jordskælv.py`
+1. Opret en ny fil i `src/scenarios/`, f.eks. `src/scenarios/jordskælv.py`
 2. Implementer en `build_scenario(h: Household) -> dict` funktion (se eksisterende scenarier)
-3. Tilføj import og registrering i `scenarios/__init__.py`
+3. Tilføj import og registrering i `src/scenarios/__init__.py`
 
 ## Udviklet af
 
