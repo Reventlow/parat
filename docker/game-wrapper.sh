@@ -11,7 +11,7 @@ trap 'exit 0' INT TERM HUP QUIT PIPE
 
 # Run the game
 cd /opt/parat
-python3 parat.py 2>/dev/null
+python3 -u parat.py 2>/dev/null
 
 # Game exited — disconnect immediately
 exit 0
