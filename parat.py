@@ -9,7 +9,7 @@ over deres families beredskab.
 Udviklet af SynTech.dk
 
 Usage:
-    python3 3doegn.py
+    python3 parat.py
 
 No external dependencies required — uses Python standard library only.
 """

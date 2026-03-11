@@ -38,10 +38,10 @@ git clone https://github.com/Reventlow/parat.git
 cd parat
 
 # Kør spillet
-python3 3doegn.py
+python3 parat.py
 
 # Eller via launcher-scriptet
-./3doegn
+./parat
 ```
 
 ### Spillets forløb
@@ -77,8 +77,8 @@ Spillet vurderer jer inden for 10 kategorier:
 
 ```
 parat/
-├── 3doegn             # Bash launcher
-├── 3doegn.py          # Hovedprogram (titel, menu, game loop)
+├── parat              # Bash launcher
+├── parat.py           # Hovedprogram (titel, menu, game loop)
 ├── engine.py          # Terminal-hjælpere, dataklasser, spilmotor
 ├── summary.py         # Opsummering, anbefalinger, afslutning
 └── scenarios/
