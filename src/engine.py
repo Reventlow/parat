@@ -184,7 +184,8 @@ def print_think(text: str):
 def get_input(prompt: str = "> ") -> str:
     """Get user input with a styled prompt."""
     try:
-        return input(f"  {Color.BRIGHT_CYAN}{prompt}{Color.RESET}").strip()
+        print(f"  {Color.BRIGHT_CYAN}{prompt}{Color.RESET}", end="", flush=True)
+        return input().strip()
     except (EOFError, KeyboardInterrupt):
         print()
         return "q"
